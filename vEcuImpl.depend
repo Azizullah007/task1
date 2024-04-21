@@ -1,0 +1,273 @@
+# depslib dependency file v1.0
+1699432219 source:p:\lehre\ase\ce-ase-vecu\native\vecuimpl\me_init.c
+	"me_init.h"
+
+1699431531 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\me_init.h
+	"xpc56el.h"
+	"siu.h"
+	"pit.h"
+	"osal.h"
+
+1699431531 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\xpc56el.h
+	"typedefs.h"
+	"spc5_flexcan.h"
+
+1698399431 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\typedefs.h
+	<stdint.h>
+	<stddef.h>
+	<stdbool.h>
+
+1698399431 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\siu.h
+	"xpc56el.h"
+
+1698399431 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\pit.h
+	"xpc56el.h"
+
+1698399431 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\osal.h
+	"typedefs.h"
+
+1698399431 source:p:\lehre\ase\ce-ase-vecu\native\vecuimpl\osal.c
+	"osal.h"
+	<windows.h>
+
+1699009987 source:p:\lehre\ase\ce-ase-vecu\native\vecuimpl\pit.c
+	"pit.h"
+	"me_init.h"
+
+1699431531 source:p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hle.c
+	<stdio.h>
+	<stdlib.h>
+	<process.h>
+	<string.h>
+	"hle.h"
+	"me_init.h"
+	"irq.h"
+
+1698399431 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hle.h
+
+1699432209 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\irq.h
+
+1699431531 source:p:\lehre\ase\ce-ase-vecu\native\vecuimpl\siu.c
+	"siu.h"
+
+1709720088 source:p:\lehre\ase\ce-ase-vecu\native\vecuimpl\main.c
+	"init.h"
+
+1699431531 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\spc5_flexcan.h
+	"typedefs.h"
+
+1712129086 source:p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\hle.c
+	<stdio.h>
+	<stdlib.h>
+	<process.h>
+	<string.h>
+	"hle.h"
+	"init.h"
+	"irq.h"
+
+1712129086 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\hle.h
+
+1702547864 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\me_init.h
+	"conf.h"
+	"xpc56el.h"
+	"siu.h"
+	"pit.h"
+	"can.h"
+	"osal.h"
+
+1712129086 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\xpc56el.h
+	"conf.h"
+	"typedefs.h"
+	"spc5_flexcan.h"
+
+1699528354 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\typedefs.h
+	<stdint.h>
+	<stddef.h>
+	<stdbool.h>
+
+1702551464 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\spc5_flexcan.h
+	"typedefs.h"
+
+1709720176 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\user\siu.h
+	"xpc56el.h"
+
+1699528354 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\pit.h
+	"xpc56el.h"
+
+1712576397 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\user\can.h
+
+1699528354 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\osal.h
+	"typedefs.h"
+
+1712129086 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\irq.h
+
+1699528354 source:p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\osal.c
+	"osal.h"
+	<windows.h>
+
+1712129086 source:p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\pit.c
+	"pit.h"
+	"init.h"
+
+1712576403 source:p:\lehre\ase\ce-ase-vecu\native\vecuimpl\user\can.c
+	"init.h"
+
+1709720124 source:p:\lehre\ase\ce-ase-vecu\native\vecuimpl\user\siu.c
+	"siu.h"
+
+1702551464 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\conf.h
+
+1702547864 source:p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\me_init.c
+	"conf.h"
+	"me_init.h"
+	"can.h"
+
+1712129086 source:p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\adc.c
+
+1712129086 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\init.h
+	"conf.h"
+	"xpc56el.h"
+	"siu.h"
+	"pit.h"
+	"can.h"
+	"osal.h"
+
+1712576447 source:p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\init.c
+	"conf.h"
+	"init.h"
+	"adc.h"
+	"can.h"
+
+1712129086 p:\lehre\ase\ce-ase-vecu\native\vecuimpl\hwsys\adc.h
+
+1712129086 source:p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\adc.c
+
+1712129086 source:p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\hle.c
+	<stdio.h>
+	<stdlib.h>
+	<process.h>
+	<string.h>
+	"hle.h"
+	"init.h"
+	"irq.h"
+
+1712129086 p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\hle.h
+
+1712576498 p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\init.h
+	"conf.h"
+	"xpc56el.h"
+	"siu.h"
+	"pit.h"
+	"osal.h"
+
+1702551464 p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\conf.h
+
+1712129086 p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\xpc56el.h
+	"conf.h"
+	"typedefs.h"
+	"spc5_flexcan.h"
+
+1699528354 p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\typedefs.h
+	<stdint.h>
+	<stddef.h>
+	<stdbool.h>
+
+1702551464 p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\spc5_flexcan.h
+	"typedefs.h"
+
+1709720176 p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\user\siu.h
+	"xpc56el.h"
+
+1699528354 p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\pit.h
+	"xpc56el.h"
+
+1699528354 p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\osal.h
+	"typedefs.h"
+
+1712129086 p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\irq.h
+
+1712576493 source:p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\init.c
+	"conf.h"
+	"init.h"
+	"adc.h"
+
+1712129086 p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\adc.h
+
+1699528354 source:p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\osal.c
+	"osal.h"
+	<windows.h>
+
+1712129086 source:p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\hwsys\pit.c
+	"pit.h"
+	"init.h"
+
+1709720088 source:p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\main.c
+	"init.h"
+
+1709720124 source:p:\lehre\ase\ce-ase-practical\unit_1_ss24\vecu template\vecuimpl_unit1\user\siu.c
+	"siu.h"
+
+1712129086 source:c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\adc.c
+
+1712129086 source:c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\hle.c
+	<stdio.h>
+	<stdlib.h>
+	<process.h>
+	<string.h>
+	"hle.h"
+	"init.h"
+	"irq.h"
+
+1712129086 c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\hle.h
+
+1712576498 c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\init.h
+	"conf.h"
+	"xpc56el.h"
+	"siu.h"
+	"pit.h"
+	"osal.h"
+
+1702551464 c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\conf.h
+
+1712129086 c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\xpc56el.h
+	"conf.h"
+	"typedefs.h"
+	"spc5_flexcan.h"
+
+1699528354 c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\typedefs.h
+	<stdint.h>
+	<stddef.h>
+	<stdbool.h>
+
+1702551464 c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\spc5_flexcan.h
+	"typedefs.h"
+
+1709720176 c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\user\siu.h
+	"xpc56el.h"
+
+1699528354 c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\pit.h
+	"xpc56el.h"
+
+1699528354 c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\osal.h
+	"typedefs.h"
+
+1712129086 c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\irq.h
+
+1712576493 source:c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\init.c
+	"conf.h"
+	"init.h"
+	"adc.h"
+
+1712129086 c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\adc.h
+
+1699528354 source:c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\osal.c
+	"osal.h"
+	<windows.h>
+
+1712129086 source:c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\hwsys\pit.c
+	"pit.h"
+	"init.h"
+
+1709720088 source:c:\users\dpdev\downloads\new folder (5)\virtualecu_template_unit1\main.c
+	"init.h"
+

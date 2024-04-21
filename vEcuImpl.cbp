@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="vEcuImpl" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/vEcuImpl.bin" prefix_auto="1" extension_auto="0" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option host_application="vtarget/vECU.UI.exe" />
+				<Option run_host_application_in_terminal="0" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DBUILD_DLL" />
+					<Add directory="user" />
+					<Add directory="hwsys" />
+				</Compiler>
+				<Linker>
+					<Add library="user32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="hwsys/adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hwsys/adc.h" />
+		<Unit filename="hwsys/conf.h" />
+		<Unit filename="hwsys/hle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hwsys/hle.h" />
+		<Unit filename="hwsys/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hwsys/init.h" />
+		<Unit filename="hwsys/irq.h" />
+		<Unit filename="hwsys/osal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hwsys/osal.h" />
+		<Unit filename="hwsys/pit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hwsys/pit.h" />
+		<Unit filename="hwsys/spc5_flexcan.h" />
+		<Unit filename="hwsys/typedefs.h" />
+		<Unit filename="hwsys/xpc56el.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="user/siu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="user/siu.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

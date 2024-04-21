@@ -1,0 +1,5 @@
+EXPORTS
+    bootstrap_main @1
+    irq_trig @2
+    v_read @3
+    v_write @4
